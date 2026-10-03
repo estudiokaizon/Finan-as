@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+
+  --color-creme: #f6f3ec;
+  --color-marinho: #1b2a4a;
+  --color-dourado: #a8854f;
+  --color-sucesso: #1e7b4a;
+  --color-alerta: #c0392b;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  margin: 0;
+  background: var(--color-creme);
+  color: var(--color-marinho);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+}
